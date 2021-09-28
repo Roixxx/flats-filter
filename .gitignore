@@ -2,8 +2,6 @@
 # Custom
 #
 
-# Build folder (get's generated when running any start or build commands)
-Build
 
 #
 # Standard Node .gitignore

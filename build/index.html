@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Квартиры в ЖК «Фрукты»</title>
+  <link rel="stylesheet" href="assets/css/styles.min.css?cb=123">
+</head>
+
+<body>
+
+	<div class="filter container">
+		<h1 class="filter__title">Квартиры в ЖК «Фрукты»</h1>
+
+		<div class="filter__row-holder">
+			<label class="filter__label" for="rooms">Количество комнат</label>
+			<div>
+				<button class="filter__btn" id="rooms" data-value="Своб. план.">Своб. план.</button>
+				<button class="filter__btn" id="rooms" data-value="Студия">Студия</button>
+				<button class="filter__btn circle-btn" id="rooms" data-value="1-комн.">1</button>
+				<button class="filter__btn circle-btn" id="rooms" data-value="2-комн.">2</button>
+				<button class="filter__btn circle-btn" id="rooms" data-value="3-комн.">3</button>
+				<button class="filter__btn circle-btn" id="rooms" data-value="4-комн.">4+</button>
+			</div>
+		</div>
+
+		<div class="filter__wide-holder filter__row-holder">
+			<div>
+				<label class="filter__label" for="priceMin">Стоимость квартиры</label>
+				<div class="filter__from-to-input" tabindex="0">
+					<span class="filter__from-span">От</span>
+					<input type="text" class="filter__from-to-input-inner" id="priceMin" name="priceFrom" value="" placeholder="От" maxlength="12" autocomplete="off">
+
+					<span class="filter__to-span">до</span>
+					<input type="text" class="filter__from-to-input-inner" id="priceMax" name="priceTo" value="" placeholder="до" maxlength="12" autocomplete="off">
+				</div>
+			</div>
+
+			<div>
+				<label class="filter__label" for="space">Общаяя площадь</label>
+				<div class="filter__from-to-input space">
+					<span class="filter__from-span">От</span>
+					<input type="text" class="filter__from-to-input-inner" id="spaceMin" name="spaceFrom" value="" placeholder="От"
+						maxlength="12" autocomplete="off">
+
+					<span class="filter__to-span">до</span>
+					<input type="text" class="filter__from-to-input-inner" id="spaceMax" name="spaceTo" value="" placeholder="до"
+						maxlength="12" autocomplete="off">
+				</div>
+			</div>
+		</div>
+
+		<div class="filter__wide-holder filter__row-holder">
+			<button class="filter__control-btn" id="resetFiltersBtn">Сбросить</button>
+			<button class="filter__control-btn filter__control-btn--yellow" id="showFlatsBtn">Показать x квартир</button>
+		</div>
+	</div>
+
+	<div class="result container">
+
+		<h2 class="result__title" id="flatsFoundTitle">Найдено x квартир</h2>
+		<table class="result__table" id='flats-container'>
+		</table>
+	</div>
+
+	<div class='no-result container'>
+		<div class="no-result__left">
+			<img src="./assets/images/no-result.svg" alt="no-result">
+		</div>
+
+		<div class="no-result__right">
+			<p class="no-result__title">Мы ничего похожего не нашли</p>
+			<p class="no-result__text">Попробуйте задать другие условия поиска или сбросьте фильтр</p>
+		</div>
+	</div>
+
+  <!-- Scripts -->
+	<script src="assets/js/vendors.min.js?cb=123"></script>
+  <script src="assets/js/app.min.js?cb=123"></script>
+</body>
+
+</html>
