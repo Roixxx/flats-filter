@@ -1,0 +1,94 @@
+{
+	"flats": [
+		{
+			"rooms": "Своб. план.",
+			"floor": "10/25",
+			"term": "2 кв. 2021",
+			"space": 45,
+			"price": 4000000,
+			"finishing": "Без отделки",
+			"building": "1"
+		},
+		{
+			"rooms": "Своб. план.",
+			"floor": "9/25",
+			"term": "4 кв. 2023",
+			"space": 34,
+			"price": 3000000,
+			"finishing": "Без отделки",
+			"building": "2"
+		},
+		{
+			"rooms": "Студия",
+			"floor": "1/25",
+			"term": "4 кв. 2022",
+			"space": 44,
+			"price": 3500000,
+			"finishing": "С отделкой",
+			"building": "3"
+		},
+		{
+			"rooms": "1-комн.",
+			"floor": "20/25",
+			"term": "2 кв. 2021",
+			"space": 46,
+			"price": 4600000,
+			"finishing": "С отделкой",
+			"building": "1"
+		},
+		{
+			"rooms": "1-комн.",
+			"floor": "25/25",
+			"term": "3 кв. 2021",
+			"space": 44,
+			"price": 3900000,
+			"finishing": "Без отделки",
+			"building": "1"
+		},
+		{
+			"rooms": "2-комн.",
+			"floor": "17/25",
+			"term": "1 кв. 2023",
+			"space": 65,
+			"price": 5100000,
+			"finishing": "Без отделки",
+			"building": "1"
+		},
+		{
+			"rooms": "2-комн.",
+			"floor": "19/25",
+			"term": "4 кв. 2023",
+			"space": 74,
+			"price": 6100000,
+			"finishing": "Без отделки",
+			"building": "4"
+		},
+		{
+			"rooms": "3-комн.",
+			"floor": "2/25",
+			"term": "4 кв. 2022",
+			"space": 104,
+			"price": 7250000,
+			"finishing": "С отделкой",
+			"building": "1"
+		},
+		{
+			"rooms": "4-комн.",
+			"floor": "5/25",
+			"term": "2 кв. 2021",
+			"space": 134,
+			"price": 9600000,
+			"finishing": "С отделкой",
+			"building": "3"
+		},
+		{
+			"rooms": "4-комн.",
+			"floor": "22/25",
+			"term": "1 кв. 2024",
+			"space": 144,
+			"price": 14000000,
+			"finishing": "Без отделки",
+			"building": "1"
+		}
+	]
+}
